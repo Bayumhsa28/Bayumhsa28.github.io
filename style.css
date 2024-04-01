@@ -46,7 +46,7 @@ body{
     margin-left: 10px;
 }
 
-.navbar a:hover,{
+.navbar a:hover{
     color: #00abf0;
     transition: 2s;
 }
