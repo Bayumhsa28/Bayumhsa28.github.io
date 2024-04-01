@@ -60,7 +60,7 @@ body{
 .home{
     height: 100vh;
     padding: 0% 10%;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(foto/foto1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(images/foto1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
