@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+body{
+    background: #081b29;
+    color: #ededed;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100%;
+
+}
+.header.scrolled {
+    background-color: #081b29; /* Warna latar belakang navbar saat di-scroll */
+  }
+
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:#ededed;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #00abf0;
+    transition: 2s;
+}
+.scrolled {
+    background-color: #081b29;
+    transition: 2s /* Warna latar belakang navbar saat di-scroll */
+}
+
+
+.home{
+    height: 100vh;
+    padding: 0% 10%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(foto/foto1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.home-content{
+    max-width: 650px;
+}
+
+.home-content h1{
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+
+.home-content h2{
+    font-size: 25px;
+}
+
+.home-content p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+span{
+    color: #00abf0;
+}
+
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #081b29;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
+.btn-box a:hover{
+    color: #00abf0;
+    transition: 2s;
+}
+.about{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.about-content {
+    text-align: center;
+    max-width: 800px; /* Mengatur lebar maksimum konten */
+    margin: 0 auto; /* Mengatur margin auto untuk membuat konten berada di tengah */
+    display: block;
+  }
+
+  .about-content h1{
+    justify-content: center;
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  .about-content-kiri {
+    text-align: left; /* Aligment konten ke kiri */
+    margin-right: 10px;
+    display: inline;
+    
+    
+  }
+  
+  .about-content-kiri h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    
+  }
+  
+  .about-content-kiri ul {
+    text-align: left;
+    list-style-type: disc;
+    padding: 0 40px;
+    margin-bottom: 5px;
+  }
+  
+  .about-content-kiri li {
+    padding: 7px 0; /* Tambahkan padding di atas dan bawah item */
+  }
+
+  .bg-custom {
+    background-color: white; /* Warna kuning kustom */
+    color: black; /* Warna teks hitam */
+  }
+  .bg-custom2{
+    background-color: #00abf0;
+  }
+  .contact{
+    text-align: center;
+    max-width: 800px; /* Mengatur lebar maksimum konten */
+    margin: 0 auto; /* Mengatur margin auto untuk membuat konten berada di tengah */
+    display: block;
+  }
+  .contact-content h2{
+    text-align: center;
+  }
+  .contact-content{
+    text-align: center;
+    max-width: 800px; /* Mengatur lebar maksimum konten */
+     /* Mengatur margin auto untuk membuat konten berada di tengah */
+    display: block;
+  }
+  
+ 
